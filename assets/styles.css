@@ -1,0 +1,95 @@
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+
+    background-color: #aeeef4;
+
+    font-family: Verdana;
+
+    min-height: 100%;
+    height: 100%;
+
+    color: #4d4d4d;
+}
+
+body
+{
+    background: url('/assets/background.svg') no-repeat;
+    background-size: 100% auto;
+    background-position: bottom;
+}
+
+.card-holder
+{
+    width: 30rem;
+    padding-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card
+{
+    background-color: white;
+    border: .2em solid #f2f2f2;
+}
+
+.card > div:first-child
+{
+    border-bottom: .1em solid #c1c1c1;
+}
+
+.card > div
+{
+    padding: 1em;
+}
+
+.card span
+{
+    color: #888;
+}
+
+.card div > div
+{
+    margin-top: .5rem;
+}
+
+.action-area
+{
+    width: 25em;
+    max-width: 90%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button
+{
+    border: .2em solid #f2f2f2;
+    background-color: white;
+    border-radius: .3em;
+
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .7em;
+    padding-bottom: .7em;
+
+    display: block;
+
+    margin-top: 1em;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #4d4d4d;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:focus
+{
+    outline: none;
+}
