@@ -72,7 +72,7 @@ var App = function () {
             });
 
             // make the connection
-            dataXhr.open("GET", "/data/netherlands.json");
+            dataXhr.open("GET", "data/netherlands.json");
             dataXhr.send();
         });
     };

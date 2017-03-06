@@ -16,7 +16,7 @@ html, body
 
 body
 {
-    background: url('/assets/background.svg') no-repeat;
+    background: url('background.svg') no-repeat;
     background-size: 100% auto;
     background-position: bottom;
 }
